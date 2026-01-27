@@ -1,0 +1,30 @@
+name: NodeJS_Sample_Build
+description: Node.js application with npm
+version: 1.0
+
+settings:
+  vcs-steps:
+    - key: vcs_git
+      name: Checkout Repository
+      disabled: false
+      args:
+        authType: anonymous
+        branch: main
+        url: https://github.com/abheekm/node-js-sample.git
+      argsProtected: {}
+
+  build-steps:
+    - key: runner_cmd
+      name: Install Dependencies
+      disabled: false
+      workDir: ""
+      args:
+        commands: npm install
+        continueOnError: false
+      argsProtected: {}
+
+  artifacts:
+    - name: Build Output
+      condition: buildSucceeds
+      paths:
+        - node_modules

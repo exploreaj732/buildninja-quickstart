@@ -1,0 +1,40 @@
+name: Monorepo_PNPM_Build
+description: Reactive Resume - Privacy-focused resume builder with 970K+ users
+version: 1.0
+
+settings:
+  vcs-steps:
+    - key: vcs_git
+      name: Checkout Repository
+      disabled: false
+      args:
+        authType: anonymous
+        branch: main
+        url: https://github.com/AmruthPillai/Reactive-Resume.git
+      argsProtected: {}
+
+  build-steps:
+    - key: runner_cmd
+      name: Install Dependencies
+      disabled: false
+      workDir: ""
+      args:
+        commands: pnpm install
+        continueOnError: false
+      argsProtected: {}
+
+    - key: runner_cmd
+      name: Build
+      disabled: false
+      workDir: ""
+      args:
+        commands: pnpm build
+        continueOnError: false
+      argsProtected: {}
+
+  artifacts:
+    - name: Build Output
+      condition: buildSucceeds
+      paths:
+        - dist
+        - libs/utils/src/namespaces/tests

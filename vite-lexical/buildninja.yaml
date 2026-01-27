@@ -1,0 +1,37 @@
+name: Vite_Lexical_Build
+description: Facebook Lexical - Extensible text editor framework (22K+ stars)
+version: 1.0
+
+settings:
+  vcs-steps:
+    - key: vcs_git
+      name: Checkout Repository
+      disabled: false
+      args:
+        authType: anonymous
+        branch: main
+        url: https://github.com/facebook/lexical.git
+      argsProtected: {}
+
+  build-steps:
+    - key: runner_cmd
+      name: Install Dependencies
+      disabled: false
+      workDir: ""
+      args:
+        commands: npm install
+      argsProtected: {}
+
+    - key: runner_cmd
+      name: Build
+      disabled: false
+      workDir: ""
+      args:
+        commands: npm run build
+      argsProtected: {}
+
+  artifacts:
+    - name: Lexical Package
+      condition: buildSucceeds
+      paths:
+        - packages/lexical

@@ -1,0 +1,30 @@
+name: ASP_NET_Core_Build
+description: ASP.NET Core web application build
+version: 1.0
+
+settings:
+  vcs-steps:
+    - key: vcs_git
+      name: Checkout Repository
+      disabled: false
+      args:
+        authType: anonymous
+        branch: qa
+        url: https://github.com/abheekm/ASP_NET_Core_App.git
+      argsProtected: {}
+
+  build-steps:
+    - key: runner_cmd
+      name: Build Solution
+      disabled: false
+      workDir: ""
+      args:
+        commands: dotnet build ASP_NET_Core_App.sln
+      argsProtected: {}
+
+  artifacts:
+    - name: Build Output
+      condition: buildSucceeds
+      paths:
+        - bin
+        - obj
