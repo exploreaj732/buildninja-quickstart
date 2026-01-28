@@ -16,6 +16,8 @@ Clone this repo, point BuildNinja's Config File runner at any project, and run a
 6. Authorize your agent if not already done
 7. Click **Run Build**
 
+> **Note:** When using the Config File runner, VCS settings must be configured manually in BuildNinja's UI. The `vcs-steps` section in YAML files is for documentation purposes only and will be ignored during build execution.
+
 ## Projects
 
 | Folder | Stack | Source Repository | Stars | Description |
